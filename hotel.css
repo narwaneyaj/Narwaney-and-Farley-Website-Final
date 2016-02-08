@@ -1,0 +1,108 @@
+h1 {
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-style: bold;
+    color: #27402B;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-color: #EBECE4;
+}
+
+a {
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-style: bold;
+    color: #27402B;
+    font-size: 30px;
+    align: center;
+}
+
+iframe {
+    padding-left: 0px;
+    word-wrap: break-word;
+}
+
+.menu {
+  background: #214500;
+  position: fixed;
+  top: 100px;
+  border-radius: 10px;
+  padding: 14px 30px;
+}
+
+.menu ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-margin-after: 0;
+}
+
+.menu li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2.5px sol;
+}
+
+
+.menu li a {
+  color: #EBECE4;
+  font-size: 15px;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+.menu li a:hover {
+  color: #66FF99;
+}
+p.test {
+    width: 50em; 
+    word-wrap: break-word;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 25px;
+    color: #27402B;
+    text-align: center;
+}
+
+p {
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 25px;
+    color: #27402B;
+    text-align: center;
+    width: 986px;
+}
+
+h3 {
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 38px;
+    color: #27402B;
+    text-align: center;
+}
+
+.css-slideshow{
+   position: relative;
+   max-width: 495px;
+   height: 370px;
+   margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+   margin: 0;
+   position: absolute;
+}
+.css-slideshow figcaption{
+   position: absolute;
+   top: 0;
+   color: #fff;
+   background: rgba(0,0,0, .3);
+   font-size: .8em;
+   padding: 8px 12px;
+   opacity: 0;
+   transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+   transition: opacity .5s;
+   opacity: 1;
+}
+.css-slideshow figure{
+   opacity:0;
+}
+
